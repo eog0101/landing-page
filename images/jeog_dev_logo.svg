@@ -1,0 +1,27 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradientBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradientTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background container -->
+  <rect x="10" y="10" width="180" height="60" rx="8" fill="none" stroke="url(#gradientBlue)" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Code brackets aesthetic -->
+  <text x="20" y="45" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="url(#gradientTeal)" opacity="0.6">&lt;</text>
+  <text x="170" y="45" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="url(#gradientTeal)" opacity="0.6">/&gt;</text>
+  
+  <!-- Main initials -->
+  <text x="100" y="50" font-family="'Arial', sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="url(#gradientBlue)">JEOG</text>
+  
+  <!-- Subtle dot accent -->
+  <circle cx="145" cy="35" r="2" fill="url(#gradientTeal)"/>
+  <circle cx="155" cy="35" r="2" fill="url(#gradientTeal)" opacity="0.7"/>
+  <circle cx="165" cy="35" r="2" fill="url(#gradientTeal)" opacity="0.4"/>
+</svg>
